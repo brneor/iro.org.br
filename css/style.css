@@ -1,0 +1,11 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.hero {
+  background-color: #A53E42;
+  height: 500px;
+  margin: 0;
+  width: 100%;
+}
