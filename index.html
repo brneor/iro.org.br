@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="iro_org_br">
   <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Basic visual stuff -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="icon" href="imgs/favicon.ico" type="image/png" />
     <title>Igreja Reformada Ortodoxa</title>
+    <meta charset="utf-8"/>
+
+    <!-- SCROLLS -->
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- SPELLS -->
+    <!-- load angular and angular route via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+
+    <!-- SETTING THE BASE FOR PRETTY URLS -->
+    <base href="/">
   </head>
-  <body>
-    <div class="hero logo">
-      
-    </div>
-    <div class="main-content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit lacus, sagittis sed aliquam at, tincidunt ut eros. Sed a nulla id sem dictum laoreet ut nec arcu. Integer porttitor ipsum eu ullamcorper lobortis. Sed nulla elit, sollicitudin eu velit consequat, malesuada molestie neque. Mauris mi arcu, luctus sit amet egestas vitae, tempor id ante. Donec porta mauris turpis, in iaculis ipsum tristique et. Donec congue lacus non ipsum tristique, in dapibus erat imperdiet. Nunc sit amet ligula tempus, sagittis nunc id, blandit neque. Proin nisl risus, ultrices quis nunc vel, tempor sagittis neque. Maecenas id arcu sit amet diam vehicula fermentum. Donec quis eros laoreet, rhoncus mi non, dignissim turpis. Nullam pharetra luctus lacus, pretium tincidunt lorem fermentum ut. Phasellus posuere sem in elit aliquam, id fermentum lorem lacinia. Nam sollicitudin ligula vestibulum finibus laoreet. Aliquam vestibulum tellus rhoncus tempus mattis. Phasellus fringilla nisl nec leo lobortis interdum.</p>
+  <body ng-controller="mainController" ng-app="iro_org_br">
+    <!-- HEADER AND NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-solarized bgcolor0">
+        <a class="navbar-brand fira-title color3" href="/">
+          <img src="imgs/profile-pic.jpg" width="32" height="32" class="profile-pic-rounded" alt="">
+          Igreja Reformada Ortodoxa
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#iro/"><i class="fa fa-home"></i> home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iro/sobre"><i class="fa fa-user-circle"></i> sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iro/pregacoes"><i class="fa fa-code"></i> projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iro/contato"><i class="fa fa-comment"></i> contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <p>Sed gravida lectus id arcu auctor bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nisi libero, pulvinar a interdum sit amet, ultricies at nisi. Sed pulvinar vitae nibh eu rhoncus. Etiam fermentum quam eu libero mattis, sit amet vulputate ante ullamcorper. Pellentesque vitae sapien vitae dolor cursus fringilla nec vel purus. Curabitur in lorem ac orci pharetra laoreet. Sed et elit a metus vehicula rhoncus. Curabitur et tellus consequat, dictum sem nec, pretium dolor. Pellentesque tempor risus massa, eget dapibus ligula hendrerit quis. Nulla facilisi. Mauris sollicitudin, ipsum in tristique tempor, massa mi condimentum metus, nec venenatis nunc lectus nec libero. Pellentesque sem ex, ultrices vel sollicitudin eu, viverra dictum diam.</p>
-
-    <p>Duis congue lectus a turpis pulvinar luctus. Aliquam bibendum finibus tempus. Integer placerat in nisi ac luctus. Duis sodales euismod mauris et blandit. Proin pharetra feugiat cursus. Phasellus posuere erat malesuada magna venenatis, consequat consequat massa aliquam. Maecenas nisi nulla, bibendum id ex eget, mollis sodales nunc. Nulla malesuada nunc non aliquam eleifend.
-
-    <p>Integer malesuada placerat ante. Aliquam vitae imperdiet felis, sed feugiat quam. Morbi orci tellus, mattis a maximus sed, eleifend ac ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ex vel urna gravida feugiat. Nullam lobortis mauris augue. Fusce accumsan ligula nec ultricies molestie. Mauris et urna efficitur, auctor arcu vitae, pulvinar eros. Curabitur aliquam finibus ante. Praesent vitae rutrum erat.</p>
-
-    <p>Nulla non lorem in nisi malesuada molestie. In eget viverra urna. Maecenas at ligula rhoncus, posuere risus eu, vestibulum mi. Fusce aliquet efficitur congue. Nullam nec metus rutrum, convallis ex ut, pretium nunc. Pellentesque mattis nec mi ut iaculis. Duis efficitur lectus mollis enim commodo, ac vehicula leo consectetur. Vestibulum imperdiet nibh turpis, sit amet semper eros dictum vitae. Phasellus aliquam et ante ac suscipit. Etiam vitae ipsum eget sapien lacinia vulputate sit amet id ligula. Phasellus malesuada convallis ligula vel tempor. Curabitur consectetur fringilla eros, sit amet dignissim diam tempor vitae. Nunc a velit eu enim fermentum ullamcorper. Suspendisse non libero pharetra, accumsan tellus nec, mattis lectus. Phasellus ut egestas quam, sed hendrerit augue. Etiam semper consequat nunc, eget varius diam sagittis quis.</p>
+<!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div id="main">
+      <!-- angular templating -->
+      <!-- this is where content will be injected -->
+      <div class="page {{ pageClass }}" ng-view></div>
     </div>
   </body>
 </html>
