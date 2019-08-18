@@ -40,7 +40,7 @@ a:hover {
 }
 
 .hero-reformation-wall {
-  background: url('../imgs/reformation-wall.jpg') no-repeat center center fixed;
+  background: url('../imgs/reformation-wall.jpg') no-repeat center 0% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
