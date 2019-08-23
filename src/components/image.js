@@ -1,9 +1,18 @@
 import React from 'react';
 import Img from 'gatsby-image';
 import { StaticQuery, graphql } from 'gatsby';
-function renderImage(file) {
+function renderImage(file, props) {
+  const vHeight = parseInt(props.height) || file.node.childImageSharp.fixed.height;
+  const vWidth = parseInt(props.width) || file.node.childImageSharp.fixed.width;
   console.log(file);
-  return <Img fluid={file.node.childImageSharp.fluid} />
+  console.log( "Param: " + vHeight + " x " + vWidth);
+  return <Img 
+    fluid={file.node.childImageSharp.fluid}
+    style={{ 
+      height: vHeight,
+      width: vWidth
+    }}
+  />
 }
 const Image = function (props) {
   return <StaticQuery
@@ -15,6 +24,10 @@ const Image = function (props) {
             extension
             relativePath
             childImageSharp {
+              fixed {
+                height
+                width
+              }
               fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid
               }
@@ -24,7 +37,7 @@ const Image = function (props) {
       }
     }
     `}
-    render={({ images }) => renderImage(images.edges.find(image => image.node.relativePath === props.src))}
+    render={({ images }) => renderImage(images.edges.find(image => image.node.relativePath === props.src), props)}
   />
 }
 export default Image;
