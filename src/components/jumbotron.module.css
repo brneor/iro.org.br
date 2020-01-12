@@ -1,0 +1,20 @@
+.hero {
+  height: 500px;
+}
+
+.hero_reformation_wall {
+  background: url('../images/reformation-wall.jpg') no-repeat center 0%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.hero {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url('../images/reformation-wall.jpg') no-repeat center 0%;
+  height: 500px;
+}*/

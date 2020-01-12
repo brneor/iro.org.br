@@ -1,0 +1,26 @@
+/*---------------------------------------------------------------------------*/
+/* Recursos externos */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tinos:400,700&display=swap');
+/*---------------------------------------------------------------------------*/
+/* Custom declarations */
+.text_font_tinos {
+  font-family: 'Tinos' !important;
+}
+
+p, .text_font_opensans {
+  font-family: 'Open Sans' !important;
+}
+
+.font_variant_smallcaps {
+  font-variant: small-caps !important;
+}
+
+.bg_iro_red {
+  background-color: #A53E42;
+}
+
+footer {
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
