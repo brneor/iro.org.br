@@ -1,5 +1,5 @@
 {
-  "name": "Igreja Reformada Ortodoxa",
+  "name": "iro.org.br",
   "private": true,
   "description": "A homepade da IRO de Juiz de Fora.",
   "version": "0.1.0",
@@ -13,21 +13,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gatsby": "^2.13.70",
-    "gatsby-background-image": "^0.8.5",
-    "gatsby-image": "^2.2.11",
+    "bootstrap": "^4.4.1",
+    "gatsby": "^2.18.21",
+    "gatsby-background-image": "^0.8.19",
+    "gatsby-image": "^2.2.38",
     "gatsby-plugin-favicon": "^3.1.6",
-    "gatsby-plugin-sharp": "^2.2.15",
-    "gatsby-source-filesystem": "^2.1.13",
-    "gatsby-transformer-sharp": "^2.2.9",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "reactstrap": "^8.0.1",
-    "styled-components": "^4.3.2"
+    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "reactstrap": "^8.2.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",

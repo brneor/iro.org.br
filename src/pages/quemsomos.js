@@ -5,6 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default () => (
   <div>
   <MainNavBar />
-    Sobre.
+    Quem somos.
   </div>
 )

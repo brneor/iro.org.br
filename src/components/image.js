@@ -12,6 +12,7 @@ function renderImage(file, props) {
       height: vHeight,
       width: vWidth
     }}
+    className={props.className}
   />
 }
 const Image = function (props) {
