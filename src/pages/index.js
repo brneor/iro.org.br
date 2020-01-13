@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { 
   Container,
   Row,
@@ -19,6 +20,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // O CSS da imagem está com 100% de largura e altura, dar atenção a isso.
 export default () => (
   <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Igreja Reformada Ortodoxa</title>
+      <link rel="canonical" href="https://iro.org.br" />
+    </Helmet>
   <MainNavBar />
   <MainJumbotron />
     <Container>
@@ -41,33 +47,53 @@ export default () => (
       </Row>
 
       {/* Cards menores */}
-      <Row className="my-5 mx-auto">
+      <Row className="mt-5">
+        <Col>
+          <h1 className="display-3 text-dark text-center text_font_tinos font_variant_smallcaps">Em que cremos</h1>
+        </Col>
+      </Row>
+      <Row className="my-3 mx-auto">
         <Col>
           <Card className="border-0">
-            <CardImg top width="100%" src="https://via.placeholder.com/300" alt="Card image top" />
+            <Image 
+              src="images/belgic-confession.jpg"
+              height="340" 
+              width="340"
+              className="m-auto" 
+            />
             <CardBody>
-              <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod sollicitudin enim non commodo. Curabitur varius, mi in blandit pellentesque, metus lorem imperdiet eros, a tristique arcu magna in lorem. Suspendisse diam dui, ullamcorper vitae risus sit amet, tincidunt consectetur mi.
+              <CardText className="text-center text_font_tinos font_variant_smallcaps ">
+              Confissão Belga
               </CardText>
             </CardBody>
           </Card>
         </Col>
         <Col>
           <Card className="border-0">
-            <CardImg top width="100%" src="https://via.placeholder.com/300" alt="Card image top" />
+            <Image 
+              src="images/heidelberg.jpg"
+              height="340" 
+              width="340"
+              className="m-auto" 
+            />
             <CardBody>
-              <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod sollicitudin enim non commodo. Curabitur varius, mi in blandit pellentesque, metus lorem imperdiet eros, a tristique arcu magna in lorem. Suspendisse diam dui, ullamcorper vitae risus sit amet, tincidunt consectetur mi.
+              <CardText className="text-center text_font_tinos font_variant_smallcaps ">
+              Catecismo de Heidelberg
               </CardText>
             </CardBody>
           </Card>
         </Col>
         <Col>
           <Card className="border-0">
-            <CardImg top width="100%" src="https://via.placeholder.com/300" alt="Card image top" />
+            <Image 
+              src="images/westminster.jpg"
+              height="340" 
+              width="340"
+              className="m-auto" 
+            />
             <CardBody>
-              <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod sollicitudin enim non commodo. Curabitur varius, mi in blandit pellentesque, metus lorem imperdiet eros, a tristique arcu magna in lorem. Suspendisse diam dui, ullamcorper vitae risus sit amet, tincidunt consectetur mi.
+              <CardText className="text-center text_font_tinos font_variant_smallcaps ">
+              Confissão de fé de Westminster
               </CardText>
             </CardBody>
           </Card>
