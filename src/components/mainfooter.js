@@ -4,11 +4,26 @@ import { Container, Col, Row } from "reactstrap"
 const CustomFooter = (props) => {
   return (
     <div>
-      <footer className="bg-dark text-light py-5 mt-5 footer">
+      <footer className="bg-dark text-light py-5 mt-5 footer text_font_tinos">
         <Container>
           <Row>
             <Col>
-              Texto do rodapé
+              <h1>Encontre-nos</h1>
+            </Col>
+            <Col>
+              <h1>Conheça a Igreja</h1>
+              <p className="info text_font_tinos">
+                <span className="bold">Endereço</span>
+                <span>Av. Sete, 1140</span>
+                <span>Juiz de Fora MG, CEP: 36063-000</span>
+              </p>
+
+              <p className="info text_font_tinos">
+                <span className="bold">Horário dos cultos</span>
+                <span>Terça: 19h30</span>
+                <span>Sexta: 19h30</span>
+                <span>Domingo: 19h</span>
+              </p>
             </Col>
           </Row>
         </Container>
