@@ -16,7 +16,7 @@ export default () => (
   <Jumbotron fluid className="hero hero_confissao_belga"></Jumbotron>
     <Container>
         <Row className="mb-3">
-            <Col>
+            <Col id="confissao">
               <h1 className="display-3 text-dark text-center text_font_tinos font_variant_smallcaps">Confissão Belga</h1>
               <h4>por Guido de Brès</h4>
               <p>O primeiro dos padrões doutrinários da Igreja Reformada na Holanda foi a Confissão de Fé. Ela é normalmente conhecida como Confissão Belga porque originou-se na área agora conhecida como Bélgica.</p>

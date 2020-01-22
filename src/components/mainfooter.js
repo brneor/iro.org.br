@@ -33,7 +33,7 @@ const CustomFooter = (props) => {
             </Col>
           </Row>
           <Row>
-            <Col><span>© 2020 Igreja Reformada Ortodoxa</span></Col>
+            <Col><p>© 2020 Igreja Reformada Ortodoxa</p></Col>
           </Row>
         </Container>
       </footer>
