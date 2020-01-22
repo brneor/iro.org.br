@@ -55,19 +55,25 @@ a:focus {
 }
 
 .hero_confissao_belga {
-  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+  background: url('../images/hero-belga.jpg') no-repeat 50% 0%/cover;
 }
 
 .hero_westminster {
-  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+  background: url('../images/hero-westminster.jpg') no-repeat 50% 0%/cover;
 }
 
 .hero_heidelberg {
-  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+  background: url('../images/hero-heidelberg.jpg') no-repeat 50% 0%/cover;
 }
 
 p.info span {
   display: block;
+}
+
+p.links a {
+  display: inline-block;
+  width: min-content;
+  padding: 0px 4px;
 }
 
 span.bold {

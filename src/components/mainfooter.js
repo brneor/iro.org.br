@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "../components/image"
 import { Container, Col, Row } from "reactstrap"
 
 const CustomFooter = (props) => {
@@ -9,6 +10,11 @@ const CustomFooter = (props) => {
           <Row>
             <Col>
               <h1>Encontre-nos</h1>
+              <p className="links">
+                <a href="https://facebook.com/sola.scriptura500" target="blank"><Image src="images/facebook.png" /></a>
+                <a href="https://youtube.com/" target="blank"><Image src="images/youtube.png" /></a>
+                <a href="mailto:contato@iro.org.br" target="blank"><Image src="images/email.png" /></a>
+              </p>
             </Col>
             <Col>
               <h1>Conheça a Igreja</h1>
@@ -25,6 +31,9 @@ const CustomFooter = (props) => {
                 <span>Domingo: 19h</span>
               </p>
             </Col>
+          </Row>
+          <Row>
+            <Col><span>© 2020 Igreja Reformada Ortodoxa</span></Col>
           </Row>
         </Container>
       </footer>
