@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Tinos:400,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
-.text_font_tinos {
+p, h1, h2, h3, h4, ul, ol, li .text_font_tinos {
   font-family: 'Tinos' !important;
 }
 
-p, .text_font_opensans {
+.text_font_opensans {
   font-family: 'Open Sans' !important;
 }
 
