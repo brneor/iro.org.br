@@ -10,8 +10,8 @@ import styles from "./jumbotron.module.css"
 const MainJumbotron = (props) => {
   const data = useStaticQuery(
     graphql`
-    query {
-      fileName: file(relativePath: { eq: "reformation-wall.jpg" }) {
+    query getImages($src: String){
+      fileName: file(relativePath: { eq: $src }) {
         childImageSharp {
           fluid(maxWidth: 400, maxHeight: 250) {
             ...GatsbyImageSharpFluid
@@ -19,8 +19,9 @@ const MainJumbotron = (props) => {
         }
       }
     }
-  `)
-  console.log(data)
+  `, {src: "heidelberg.jpg"})
+  console.log('image:');
+  console.log(props.src);
   return (
     <div>
       <Jumbotron fluid className={[styles.hero, styles.hero_reformation_wall].join(' ')}>

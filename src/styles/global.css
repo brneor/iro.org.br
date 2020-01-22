@@ -28,3 +28,40 @@ footer {
 .card-body p {
   font-size: 1.5rem;
 }
+
+.row .col a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.row .col a:active {
+  color: #343a40;
+}
+
+.row .col a:visited {
+  color: #343a40;
+}
+
+a:focus { 
+  outline: none; 
+}
+
+.hero {
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero_confissao_belga {
+  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+}
+
+.hero_westminster {
+  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+}
+
+.hero_heidelberg {
+  background: url('../images/reformation-wall.jpg') no-repeat 50% 0%/cover;
+}

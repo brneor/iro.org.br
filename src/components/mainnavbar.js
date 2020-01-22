@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 import styles from "./mainnavbar.module.css"
@@ -34,6 +35,11 @@ export default class MainNavBar extends React.Component {
   render() {
     return (
       <div className={styles.bg_iro_red}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Igreja Reformada Ortodoxa</title>
+        <link rel="canonical" href="https://iro.org.br" />
+      </Helmet>
         <Navbar dark expand="md" className="bg_iro_red">
           <NavbarBrand tag={Link} to="/">
           <img src={logo} className={[styles.logo, "mx-2 d-inline-block align-top"].join(" ")} alt=""/>

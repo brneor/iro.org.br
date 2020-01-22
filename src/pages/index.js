@@ -1,5 +1,5 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import { 
   Container,
   Row,
@@ -20,11 +20,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // O CSS da imagem está com 100% de largura e altura, dar atenção a isso.
 export default () => (
   <div>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Igreja Reformada Ortodoxa</title>
-      <link rel="canonical" href="https://iro.org.br" />
-    </Helmet>
   <MainNavBar />
   <MainJumbotron />
     <Container>
@@ -54,12 +49,12 @@ export default () => (
       </Row>
       <Row className="my-3 mx-auto">
         <Col>
-          <Card className="border-0">
+          <Card className="border-0" tag={Link} to="/confissao_belga">
             <Image 
               src="images/belgic-confession.jpg"
               height="340" 
               width="340"
-              className="m-auto" 
+              className="m-auto"
             />
             <CardBody>
               <CardText className="text-center text_font_tinos font_variant_smallcaps ">
@@ -69,7 +64,7 @@ export default () => (
           </Card>
         </Col>
         <Col>
-          <Card className="border-0">
+          <Card className="border-0" tag={Link} to="/heidelberg">
             <Image 
               src="images/heidelberg.jpg"
               height="340" 
@@ -84,7 +79,7 @@ export default () => (
           </Card>
         </Col>
         <Col>
-          <Card className="border-0">
+          <Card className="border-0" tag={Link} to="/westminster">
             <Image 
               src="images/westminster.jpg"
               height="340" 
