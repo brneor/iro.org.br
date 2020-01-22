@@ -13,7 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default () => (
   <div>
   <MainNavBar />
-  <Jumbotron fluid className="hero hero_heidelberg"></Jumbotron>
+  <Jumbotron fluid className="hero hero_confissao_belga"></Jumbotron>
     <Container>
         <Row className="mb-3">
             <Col>

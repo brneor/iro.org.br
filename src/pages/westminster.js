@@ -1,4 +1,5 @@
 import React from "react"
+import { Jumbotron } from "reactstrap"
 import { 
   Container,
   Row,
@@ -13,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default () => (
   <div>
   <MainNavBar />
-  <MainJumbotron />
+  <Jumbotron fluid className="hero hero_westminster"></Jumbotron>
     <Container>
         <Row className="mb-3">
             <Col>
