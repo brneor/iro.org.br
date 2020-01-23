@@ -80,8 +80,13 @@ span.bold {
   font-weight: bold;
 }
 
-.carousel-item a img {
+.carousel-item {
   height: 450px;
+}
+
+.carousel-item a img {
+  top: -10%;
+  position: absolute;
 }
 
 .carousel-item .carousel-caption {

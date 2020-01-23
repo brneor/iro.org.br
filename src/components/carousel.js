@@ -11,15 +11,15 @@ import {
 const items = [
   {
     src: 'blog/nenad-spasojevic-Hf3i5itAlvs-unsplash.jpg',
-    altText: 'Slide 1',
+    altText: 'O início do fim da era cristã',
     header: 'O início do fim da era cristã',
     link: 'https://iro.org.br/blog/?p=45'
   },
   {
-    src: 'https://via.placeholder.com/1000x400',
-    altText: 'Slide 2',
-    header: 'Slide 2',
-    link: 'https://iro.org.br/blog'
+    src: 'blog/Jesus-e-Marx.jpg',
+    altText: 'Jesus e Marx: o diálogo impossível',
+    header: 'Jesus e Marx: o diálogo impossível',
+    link: 'https://iro.org.br/blog/?p=56'
   },
   {
     src: 'https://via.placeholder.com/1000x400',
