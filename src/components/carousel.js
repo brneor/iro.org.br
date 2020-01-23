@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React, { Component } from 'react';
 import {
   Carousel,
@@ -9,19 +10,22 @@ import {
 
 const items = [
   {
-    src: 'https://via.placeholder.com/1000x400',
+    src: 'blog/nenad-spasojevic-Hf3i5itAlvs-unsplash.jpg',
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    header: 'O início do fim da era cristã',
+    link: 'https://iro.org.br/blog/?p=45'
   },
   {
     src: 'https://via.placeholder.com/1000x400',
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    header: 'Slide 2',
+    link: 'https://iro.org.br/blog'
   },
   {
     src: 'https://via.placeholder.com/1000x400',
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    header: 'Slide 3',
+    link: 'https://iro.org.br/blog'
   }
 ];
 
@@ -71,8 +75,8 @@ class CustomCarousel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} className="w-100"/>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <a href={item.link}><img src={item.src} alt={item.altText} className="w-100"/></a>
+          <a href={item.link}><CarouselCaption captionHeader={item.header}/></a>
         </CarouselItem>
       );
     });
