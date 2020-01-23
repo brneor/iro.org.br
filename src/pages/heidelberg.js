@@ -19,7 +19,6 @@ export default () => (
         <Row className="mb-3">
             <Col id="confissao" className="heidelberg">
             <h1 className="display-3 text-dark text-center text_font_tinos font_variant_smallcaps">Catecismo de Heidelberg</h1>
-            <h4>por Zacarias Ursino e Gaspar Oleviano</h4>
 <p>O Catecismo de Heidelberg é o segundo dos padrões doutrinários da Igreja Reformada e originou-se no ano de 1563 na cidade de Heidelberg (daí seu nome), capital do eleitorado alemão do Palatinado. O príncipe eleitor Frederico III, que se tornou calvinista em 1560, encarregou Zacarias Ursinus (professor da faculdade de teologia de Heidelberg) e Caspar Olevianus, pregador da corte, de prepararem um manual de instrução doutrinária para consolidar a fé reformada em seus domínios. O novo catecismo foi aprovado e publicado em 1563. O sucesso foi imediato e em sua terceira edição as perguntas e respostas foram agrupadas em 52 <em>Dias do Senhor</em>, de modo que seu conteúdo pudesse ser estudado ao longo de um ano.</p>
 
 
