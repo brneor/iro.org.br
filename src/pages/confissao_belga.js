@@ -29,18 +29,18 @@ export default () => (
     <p>Todos nós cremos com o coração e confessamos com a boca<sup>1</sup> que há um só Deus<sup>2</sup>, um único e simples ser espiritual<sup>3</sup>. Ele é eterno<sup>4</sup>, incompreensível<sup>5</sup> invisível<sup>6</sup>, imutável<sup>7</sup>, infinito<sup>8</sup>, todo-poderoso<sup>9</sup>; totalmente sábio<sup>10</sup>, justo<sup>11</sup> e bom<sup>12</sup>, e uma fonte muito abundante de todo bem.</p>
     
         <ol>
-            <li> Rm 10:10</li>
-            <li> Dt 6:4; 1 Co 8:4,6; 1 Tm 2:5</li>
-            <li> Jo 4:24</li>
-            <li> Sl 90:2</li>
-            <li> Rm 11:33</li>
-            <li> Cl 1:15; 1 Tm 6:16</li>
-            <li> Tg 1:17</li>
-            <li> 1Rs 8:27; Jr 23:24</li>
-            <li> Gn 17:1; Mt 19:26; Ap 1:8</li>
-            <li> Rm 16:27</li>
-            <li> Rm 3:25,26; Rm 9:14; Ap 16:5,7</li>
-            <li> Mt 19:17. Veja também Is 40, 44 e 46</li>
+            <li>Rm 10:10</li>
+            <li>Dt 6:4; 1 Co 8:4,6; 1 Tm 2:5</li>
+            <li>Jo 4:24</li>
+            <li>Sl 90:2</li>
+            <li>Rm 11:33</li>
+            <li>Cl 1:15; 1 Tm 6:16</li>
+            <li>Tg 1:17</li>
+            <li>1Rs 8:27; Jr 23:24</li>
+            <li>Gn 17:1; Mt 19:26; Ap 1:8</li>
+            <li>Rm 16:27</li>
+            <li>Rm 3:25,26; Rm 9:14; Ap 16:5,7</li>
+            <li>Mt 19:17. Veja também Is 40, 44 e 46</li>
         </ol>
     
     <h2>Artigo 2 &ndash; Como conhecemos a Deus</h2>
@@ -415,9 +415,9 @@ export default () => (
     <li>Mt 7:17</li>
     <li>1 Co 1:30: 1 Co 4:7; Ef 2:10</li>
     <li>Rm 2:6,7; 1 Co 3:14; 2Jo :8; Ap 2:23</li>
-    <li> Rm 7:21</li>
-    <li> Tg 2:10</li>
-    <li> Hc 2:4; Mt 11:28; Rm 10:11</li>
+    <li>Rm 7:21</li>
+    <li>Tg 2:10</li>
+    <li>Hc 2:4; Mt 11:28; Rm 10:11</li>
     </ol>
     <h2>Artigo 25 – Cristo, o cumprimento da lei</h2>
     
@@ -699,11 +699,11 @@ export default () => (
     <ol>
         <li>Pv 8:15; Dn 2:21; Jo 19:11; Rm 13:1</li>
         <li>Êx 18:20</li>
-        <li> Dt 1:16; Dt 16:19; Jz 21:25; Sl 82; Jr 21:12; Jr 22:3; 1 Pe 2:13,14</li>
-        <li> Sl 2; Rm 13:4a; 1 Tm 2:1-4</li>
-        <li> Mt 17:27; Mt 22:21; Rm 13:7; Tt 3:1; 1 Pe 2:17</li>
-        <li> At 4:19; At 5:29</li>
-        <li> 2 Pe 2:10; Jd :8</li>
+        <li>Dt 1:16; Dt 16:19; Jz 21:25; Sl 82; Jr 21:12; Jr 22:3; 1 Pe 2:13,14</li>
+        <li>Sl 2; Rm 13:4a; 1 Tm 2:1-4</li>
+        <li>Mt 17:27; Mt 22:21; Rm 13:7; Tt 3:1; 1 Pe 2:17</li>
+        <li>At 4:19; At 5:29</li>
+        <li>2 Pe 2:10; Jd :8</li>
     </ol>
     
     <p>* Originalmente o texto incluía aqui as se guintes palavras: &ldquo;...impedir e exterminar toda idolatria e falso culto a Deus, destruir o reino do anticristo e ...&rdquo;.</p>
@@ -732,15 +732,15 @@ export default () => (
         <li>Dt 7:9-11; Ap 20:12,13</li>
         <li>Dn 12: 2; Jo 5:28,29</li>
         <li>1 Co 15:51,52; Fp 3:20,21</li>
-        <li> Hb 9:27; Ap 22:12</li>
-        <li> Mt 11:22; Mt 23: 33; Rm 2:5,6; Hb 10:27; 2 Pe 2:9; Jd :15; Ap 14:7a</li>
-        <li> Lc 14:14; 2 Ts 1:3-10; 1 Jo 4:17</li>
-        <li> Ap 15:4; Ap 18:20</li>
-        <li> Mt 13:41,42; Mc 9:48; Lc 16:23-28; Ap 21:8</li>
-        <li> Ap 20:10</li>
-        <li> Ap 3:5</li>
-        <li> Is 25:8; Ap 7:17</li>
-        <li> Dn 12: 3; Mt 5:12; Mt 13:43; 1 Co 2:9; Ap 21:9-22:5</li>
+        <li>Hb 9:27; Ap 22:12</li>
+        <li>Mt 11:22; Mt 23: 33; Rm 2:5,6; Hb 10:27; 2 Pe 2:9; Jd :15; Ap 14:7a</li>
+        <li>Lc 14:14; 2 Ts 1:3-10; 1 Jo 4:17</li>
+        <li>Ap 15:4; Ap 18:20</li>
+        <li>Mt 13:41,42; Mc 9:48; Lc 16:23-28; Ap 21:8</li>
+        <li>Ap 20:10</li>
+        <li>Ap 3:5</li>
+        <li>Is 25:8; Ap 7:17</li>
+        <li>Dn 12: 3; Mt 5:12; Mt 13:43; 1 Co 2:9; Ap 21:9-22:5</li>
     </ol>
               
             </Col>
