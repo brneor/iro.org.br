@@ -5,7 +5,7 @@ import { Container, Col, Row } from "reactstrap"
 const CustomFooter = (props) => {
   return (
     <div>
-      <footer className="bg-dark text-light py-5 mt-5 footer text_font_tinos">
+      <footer className="bg-dark text-light py-5 mt-5 footer text_font_default">
         <Container>
           <Row>
             <Col>
@@ -18,13 +18,13 @@ const CustomFooter = (props) => {
             </Col>
             <Col>
               <h1>Conheça a Igreja</h1>
-              <p className="info text_font_tinos">
+              <p className="info text_font_default">
                 <span className="bold">Endereço</span>
                 <span>Av. Sete, 1140</span>
                 <span>Juiz de Fora MG, CEP: 36063-000</span>
               </p>
 
-              <p className="info text_font_tinos">
+              <p className="info text_font_default">
                 <span className="bold">Horário dos cultos</span>
                 <span>Terça: 19h30</span>
                 <span>Sexta: 19h30</span>

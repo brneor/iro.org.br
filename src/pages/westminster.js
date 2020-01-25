@@ -18,8 +18,8 @@ export default () => (
     <Container>
         <Row className="mb-3">
             <Col>
-            <h1 className="display-3 text-dark text-center text_font_tinos font_variant_smallcaps">Confissão de fé de Westminster</h1>
-            <p className="text-center text_font_tinos"></p>
+            <h1 className="display-3 text-dark text-center text_font_default font_variant_smallcaps">Confissão de fé de Westminster</h1>
+            <p className="text-center text_font_default"></p>
             </Col>
         </Row>
       {/* Rodapé */}

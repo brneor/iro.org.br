@@ -1,25 +1,29 @@
 /* TODO: Remover este arquivo e utilizar o global.css (pelo menos para esse caso por ora.) */
 /*---------------------------------------------------------------------------*/
 /* Recursos externos */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tinos:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
-.text_font_tinos {
-  font-family: 'Tinos' !important;
+.text_font_default {
+  font-family: 'Vollkorn' !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: hsla(0,0%,100%,.8);
+  font-family: 'Vollkorn SC', serif;
+  font-size: 1rem;
 }
 .text_font_opensans {
   font-family: 'Open Sans';
 }
 .font_variant_smallcaps {
-  font-variant: small-caps !important;
+  font-family: 'Vollkorn SC', serif!important;
+  font-size: 1.2rem;
+  letter-spacing: -.05em;
+  word-spacing: .1rem;
 }
 
 .bg_iro_red {
   background-color: #A53E42;
-}
-
-.font_title {
-  font-size: 1.5rem;
 }
 
 .logo {

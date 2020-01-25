@@ -1,10 +1,25 @@
 /*---------------------------------------------------------------------------*/
 /* Recursos externos */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tinos:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
-p, h1, h2, h3, h4, ul, ol, li .text_font_tinos {
-  font-family: 'Tinos' !important;
+body {
+  font-size: 24px;
+}
+
+p, h4, ul, ol, li .text_font_default {
+  font-family: 'Vollkorn' !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Vollkorn SC' !important;
+  font-family: 'Vollkorn SC' !important;
+  letter-spacing: -0.05em;
+  word-spacing: 0.1em;
+}
+
+.h1, h1 {
+  font-size: 2.25rem!important;
 }
 
 .text_font_opensans {
@@ -12,7 +27,7 @@ p, h1, h2, h3, h4, ul, ol, li .text_font_tinos {
 }
 
 .font_variant_smallcaps {
-  font-variant: small-caps !important;
+  font-family: 'Vollkorn SC' !important;
 }
 
 .bg_iro_red {
@@ -25,8 +40,9 @@ footer {
   width: 100%;
 }
 
-.card-body p {
+card-body p {
   font-size: 1.5rem;
+  line-height: 1em;
 }
 
 .row .col a {
@@ -100,4 +116,88 @@ span.bold {
 .carousel-item .carousel-caption h3 {
   font-size: 2rem;
   padding-top: 35px;
+}
+
+/* CONFISSOES */
+#confissao {
+  max-width: 800px;
+  margin: 0 auto;
+}
+body #confissao {
+  text-align: justify;
+  font-size: 27px;
+}
+#confissao ol
+{
+  counter-reset: REFERENCIAS;
+  padding-left: 0;
+}
+
+#confissao li
+{
+  display: inline;
+  padding-right: .75em;
+}
+
+#confissao li:before
+{
+  content: counter(REFERENCIAS) ".";
+  counter-increment: REFERENCIAS;
+  font-weight: bold;
+  padding-right: 6px;
+/*     margin-right: -2px;
+  font-size: .75em;
+  vertical-align: top; */
+}
+
+#confissao .h2, h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#confissao sup {
+  line-height: 0;
+  font-size: .75em;
+  top: -.6em;
+  color: #b82e32;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* heildeberg */
+
+.heidelberg h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  text-align: center;
+  padding-top: 1em;
+}
+.heidelberg h4 {
+  font-size: 1em;
+  line-height: 1.2em;
+  padding-top: 1em;
+  text-align: left;
+}
+.heidelberg 
+{
+  counter-reset: PERGUNTAS;
+}
+.heidelberg h4:before {
+  content: 'Pergunta ' counter(PERGUNTAS)": ";
+  counter-increment: PERGUNTAS;
+  font-family: 'Vollkorn SC', serif;
+  font-weight: bold;
+}
+.heidelberg h4 + p:before {
+  content: 'Resposta: ';
+  font-family: 'Vollkorn SC', serif;
+  font-weight: bold;
+}
+
+.carousel-item .carousel-caption h3 {
+  font-size: 2rem;
+  padding-top: 35px;
+  letter-spacing: unset;
+  word-spacing: unset;
 }

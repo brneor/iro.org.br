@@ -17,7 +17,7 @@ export default () => (
     <Container>
         <Row className="mb-3">
             <Col id="confissao">
-            <h1 className="display-3 text-dark text-center text_font_tinos font_variant_smallcaps">Confissão Belga</h1>
+            <h1 className="display-3 text-dark text-center text_font_default font_variant_smallcaps">Confissão Belga</h1>
     <p>O primeiro dos padrões doutrinários da Igreja Reformada na Holanda foi a Confissão de Fé. Ela é normalmente conhecida como Confissão Belga porque originou-se na área agora conhecida como Bélgica.</p>
     <p>Seu principal autor foi Guido de Brès, um pregador reformado martirizado em 1567. Durante o século XVI as igrejas naquela região foram expostas às mais terríveis perseguições pelo governo católico. Para protestar contra essa cruel opressão e para provar aos opressores que os reformados não eram rebeldes revolucionários, como os acusavam, mas cidadãos cumpridores das leis que professavam as verdadeiras doutrinas cristãs de acordo com as Sagradas Escrituras, de Brés preparou esta Confissão no ano de 1561. No ano seguinte, uma cópia dela foi enviada ao rei Felipe II, junto com uma declaração em que os signatários afirmavam estar prontos a obedecer ao governo em tudo o que fosse legítimo, mas que ofereceriam suas costas ao chicote e seus corpos ao fogo antes de negar as verdades expressas na Confissão.</p>
     
