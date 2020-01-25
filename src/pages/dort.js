@@ -6,7 +6,6 @@ import {
   Col,
 } from "reactstrap"
 import MainNavBar from "../components/mainnavbar" 
-import MainJumbotron from "../components/jumbotron" 
 import Footer from "../components/mainfooter"
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,11 +13,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default () => (
   <div>
   <MainNavBar />
-  <Jumbotron fluid className="hero hero_westminster"></Jumbotron>
+  <Jumbotron fluid className="hero hero_dort"></Jumbotron>
     <Container>
         <Row className="mb-3">
             <Col>
-            <h1 className="display-3 text-dark text-center text_font_default font_variant_smallcaps">Confissão de fé de Westminster</h1>
+            <h1 className="display-3 text-dark text-center text_font_default font_variant_smallcaps">Cânones de Dort</h1>
             <p className="text-center text_font_default"></p>
             </Col>
         </Row>

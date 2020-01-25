@@ -79,16 +79,16 @@ export default () => (
           </Card>
         </Col>
         <Col>
-          <Card className="border-0" tag={Link} to="/westminster">
+          <Card className="border-0" tag={Link} to="/dort">
             <Image 
-              src="images/westminster.jpg"
+              src="images/dort.jpg"
               height="240" 
               width="240"
               className="m-auto" 
             />
             <CardBody>
               <CardText className="text-center text_font_default font_variant_smallcaps ">
-              Confissão de fé de Westminster
+              Cânones de Dort
               </CardText>
             </CardBody>
           </Card>
