@@ -9,15 +9,15 @@
 }
 .navbar-dark .navbar-nav .nav-link {
   color: hsla(0,0%,100%,.8);
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Vollkorn SC';
   font-size: 1rem;
 }
 .text_font_opensans {
   font-family: 'Open Sans';
 }
 .font_variant_smallcaps {
-  font-family: 'Vollkorn SC', serif!important;
-  font-size: 1.2rem;
+  font-family: 'Vollkorn SC' !important;
+  font-size: 1rem;
   letter-spacing: -.05em;
   word-spacing: .1rem;
 }

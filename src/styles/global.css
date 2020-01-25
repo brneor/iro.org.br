@@ -3,8 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
-body {
+*, body, body p {
   font-size: 24px;
+}
+
+nav {
+  font-size: 0.8rem;
 }
 
 p, h4, ul, ol, li .text_font_default {
