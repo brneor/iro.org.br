@@ -19,7 +19,7 @@ const Image = function (props) {
   return <StaticQuery
     query={graphql`
       query {
-        images: allFile(filter:{ extension: { regex: "/jpeg|jpg|png|gif/"}}) {
+        images: allFile(filter:{ extension: { regex: "/jpeg|jpg|png|gif|svg/"}}) {
         edges {
           node {
             extension
