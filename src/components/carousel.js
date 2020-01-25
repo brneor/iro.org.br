@@ -21,10 +21,10 @@ const items = [
     link: 'https://iro.org.br/blog/?p=56'
   },
   {
-    src: 'https://via.placeholder.com/1000x400',
-    altText: 'Slide 3',
-    header: 'Slide 3',
-    link: 'https://iro.org.br/blog'
+    src: 'blog/patrick-fore-b_SHPU5M3nk-unsplash.jpg',
+    altText: 'A essência singular da fé',
+    header: 'A essência singular da fé',
+    link: 'https://iro.org.br/blog/?p=60'
   }
 ];
 

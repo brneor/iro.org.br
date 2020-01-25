@@ -88,7 +88,7 @@ export default () => (
             />
             <CardBody>
               <CardText className="text-center text_font_default font_variant_smallcaps ">
-              Cânones de Dort
+              Os Cânones de Dort
               </CardText>
             </CardBody>
           </Card>
