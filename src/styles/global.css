@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------*/
 /* Recursos externos */
-@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC:400,700|Vollkorn:400,400i&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
 *, body, body p {
@@ -11,7 +11,7 @@ nav {
   font-size: 0.8rem;
 }
 
-p, h4, ul, ol, li .text_font_default {
+p, h4, ul, ol, li, blockquote, .text_font_default {
   font-family: 'Vollkorn' !important;
 }
 
@@ -122,23 +122,73 @@ span.bold {
   padding-top: 35px;
 }
 
-/* CONFISSOES */
+.carousel-item .carousel-caption h3 {
+  font-size: 2rem;
+  padding-top: 35px;
+  letter-spacing: unset;
+  word-spacing: unset;
+}
+span.smallcaps {
+  font-family: 'Vollkorn SC', serif;
+}
+q::before, q::after {
+  content: none;
+}
+q {
+  font-style: italic;
+  letter-spacing: .02rem;
+}
+q span {
+  font-style: normal;
+}
+cite {
+  font-style: normal;
+  color: #A53E42;
+  font-size: .9em;
+}
+
+blockquote {
+  padding-left: 2rem;
+}
+hr {
+  border: none!important;
+}
+hr:before {
+  content: '***';
+  font-family: serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  border: none;
+}
+
+/* -- CONFISSOES -- */
+
 #confissao {
   max-width: 800px;
   margin: 0 auto;
+}
+#confissao p {
+  margin:0;
+}
+#confissao:not(.heidelberg) p, 
+#confissao :not(.erro) p{
+  text-indent: 2em;
 }
 body #confissao {
   text-align: justify;
   font-size: 27px;
 }
-#confissao ol
-{
+#confissao ol {
   counter-reset: REFERENCIAS;
   padding-left: 0;
+  margin-top: .5em;
 }
 
-#confissao li
-{
+#confissao li {
   display: inline;
   padding-right: .75em;
 }
@@ -154,10 +204,40 @@ body #confissao {
   vertical-align: top; */
 }
 
-#confissao .h2, h2 {
-  font-size: 2rem;
+#confissao h2 {
+  font-size: 1.7rem;
   text-align: center;
   padding-top: 2rem;
+}
+#confissao h2::before,
+#confissao h2::after {
+  font-family: 'Segoe UI', sans-serif;
+  content: "\2767";
+  display: inline-block;
+  margin: 0 0.6em;
+  font-size: .75em;
+  vertical-align: middle;
+  color: #A53E42
+}
+
+#confissao h2::before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#confissao h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  text-align: center;
+  padding-top: 1em;
+}
+#confissao h4 {
+  font-size: 1rem;
+  line-height: 1.2em;
+  padding-top: 1em;
+  text-align: left;
 }
 
 #confissao sup {
@@ -169,22 +249,20 @@ body #confissao {
   vertical-align: baseline;
 }
 
-/* heildeberg */
-
-.heidelberg h3 {
+/* --- belga --- */
+#confissao.belga h2 {
   font-size: 1.3em;
   line-height: 1.2em;
   text-align: center;
   padding-top: 1em;
 }
-.heidelberg h4 {
-  font-size: 1em;
-  line-height: 1.2em;
-  padding-top: 1em;
-  text-align: left;
+#confissao.belga h2::after,
+#confissao.belga h2::before {
+  content:none;
 }
-.heidelberg 
-{
+
+/* --- heildeberg --- */
+.heidelberg {
   counter-reset: PERGUNTAS;
 }
 .heidelberg h4:before {
@@ -199,9 +277,31 @@ body #confissao {
   font-weight: bold;
 }
 
-.carousel-item .carousel-caption h3 {
-  font-size: 2rem;
-  padding-top: 35px;
-  letter-spacing: unset;
-  word-spacing: unset;
+/* --- dort --- */
+
+.dort h3 {
+  counter-reset: ARTIGO;
+}
+#confissao.dort h4 {
+  text-align: center;
+  font-family: 'Vollkorn SC', serif !important;
+  letter-spacing: -.04em;
+  word-spacing: .06em;
+  counter-reset: ERROS;
+}
+.dort h4:before {
+  content: 'Artigo ' counter(ARTIGO)" – ";
+  counter-increment: ARTIGO 1;
+  font-family: 'Vollkorn SC', serif;
+}
+.erros p:nth-child(odd):before {
+  content: 'Erro ' counter(ERROS)" – ";
+  counter-increment: ERROS 1;
+  font-family: 'Vollkorn SC', serif;
+  font-weight: bold;
+}
+.erros p:nth-child(even):before {
+  content: "Refutação – ";
+  font-family: 'Vollkorn SC', serif;
+  font-weight: bold;
 }
