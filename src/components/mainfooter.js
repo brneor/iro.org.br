@@ -11,9 +11,9 @@ const CustomFooter = (props) => {
             <Col>
               <h1>Encontre-nos</h1>
               <p className="links">
-                <a href="mailto:contato@iro.org.br" target="blank"><img src="email-icon.svg" /></a>
-                <a href="https://facebook.com/sola.scriptura500" target="blank"><img src="facebook-icon.svg" /></a>
-                <a href="https://youtube.com/" target="blank"><img src="youtube-icon.svg" /></a>
+                <a href="mailto:contato@iro.org.br" target="blank" title="Email"><img src="email-icon.svg" /></a>
+                <a href="https://facebook.com/sola.scriptura500" target="blank" title="Facebook"><img src="facebook-icon.svg" /></a>
+                <a href="https://youtube.com/" target="blank" title="You Tube"><img src="youtube-icon.svg" /></a>
               </p>
             </Col>
             <Col>

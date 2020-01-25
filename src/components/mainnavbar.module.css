@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
+nav {
+  height: 64px;
+}
 .text_font_default {
   font-family: 'Vollkorn' !important;
 }
@@ -19,6 +22,9 @@
   font-family: 'Vollkorn SC' !important;
   font-size: 1rem;
   letter-spacing: -.05em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   word-spacing: .1rem;
 }
 

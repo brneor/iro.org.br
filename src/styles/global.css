@@ -91,9 +91,21 @@ p.info span {
 }
 
 p.links a {
+  background:  #fff;
+  border-radius: 50%;
   display: inline-block;
-  width: min-content;
-  padding: 0px 4px;
+  height: 56px;
+  margin-right: 20px;
+  padding: 10px 11px;
+  width: 56px;
+}
+
+p.links a:focus, p.links a:hover {
+  transform: scale(1.1);
+}
+
+p.links a img {
+  height: 36px;
 }
 
 span.bold {
