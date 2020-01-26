@@ -19,7 +19,7 @@ const CustomFooter = (props) => {
             <Col>
               <p><span class="smallcaps">Conheça a Igreja</span></p>
               <p className="info text_font_default">
-                <span>Av. Sete, 1140</span>
+                <span>Av. Sete de Setembro, 1140</span>
                 <span>Juiz de Fora MG, CEP: 36063-000</span>
               </p>
 
