@@ -22,10 +22,13 @@ nav {
   font-family: 'Vollkorn SC' !important;
   font-size: 1rem;
   letter-spacing: -.05em;
+  word-spacing: .1rem;
+}
+
+nav a span {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  word-spacing: .1rem;
 }
 
 .bg_iro_red {
