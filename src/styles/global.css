@@ -54,6 +54,12 @@ footer {
   width: 100%;
   padding-top: 2rem;
 }
+footer p.links {
+  text-align: center;
+}
+footer .links a {
+  margin-bottom: 10px;
+}
 .copyright { 
   text-align: center;
   font-size: .8rem;
