@@ -7,7 +7,6 @@ import {
   Card,
   CardBody,
   CardText,
-  CardImg 
 } from "reactstrap"
 import MainNavBar from "../components/mainnavbar" 
 import MainJumbotron from "../components/jumbotron" 

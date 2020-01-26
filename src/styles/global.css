@@ -74,6 +74,10 @@ a:focus {
   background-size: cover;
 }
 
+.avatar-rounded {
+  border-radius: 50%;
+}
+
 .hero_confissao_belga {
   background: url('../images/hero-belga.jpg') no-repeat 50% 0%/cover;
 }
