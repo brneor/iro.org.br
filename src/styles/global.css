@@ -4,7 +4,7 @@
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
 *, body, body p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 nav {
@@ -180,7 +180,6 @@ hr:before {
 }
 body #confissao {
   text-align: justify;
-  font-size: 27px;
 }
 #confissao ol {
   counter-reset: REFERENCIAS;
@@ -228,7 +227,7 @@ body #confissao {
   transform: rotate(180deg);
 }
 #confissao h3 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   line-height: 1.2em;
   text-align: center;
   padding-top: 1em;
@@ -251,7 +250,7 @@ body #confissao {
 
 /* --- belga --- */
 #confissao.belga h2 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   line-height: 1.2em;
   text-align: center;
   padding-top: 1em;
@@ -304,4 +303,15 @@ body #confissao {
   content: "Refutação – ";
   font-family: 'Vollkorn SC', serif;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 640px) {
+  *, body, body p {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  *, body, body p {
+    font-size: 24px;
+  }
 }
