@@ -12,8 +12,14 @@ nav {
 }
 
 span.title-break {
-  display: inline-block;
+  display: block;
   line-height: 100%;
+}
+.navbar {
+  padding: .5rem!important
+}
+nav img {
+  float: left;
 }
 p, h4, ul, ol, li, blockquote, .text_font_default {
   font-family: 'Vollkorn' !important;
@@ -339,15 +345,23 @@ body #confissao {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 48px) {
+@media only screen and (min-width: 480px) {
   span.title-break {
     display: inline;
+  }
+  .navbar {
+    padding: .5rem 1rem!important
   }
 }
 @media only screen and (min-width: 640px) {
   *, body, body p {
     font-size: 21px;
   }
+  span.title-break {
+    margin-top: 10px;
+    float: left;
+    padding-right: .3rem;
+}
 }
 @media only screen and (min-width: 960px) {
   *, body, body p {
