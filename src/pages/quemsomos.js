@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { 
   Container,
   Row,
@@ -6,9 +7,10 @@ import {
   Card,
   CardBody,
   CardText,
-  CardImg 
 } from "reactstrap"
 import MainNavBar from "../components/mainnavbar" 
+import Footer from "../components/mainfooter"
+import Image from "../components/image"
 import MainJumbotron from "../components/jumbotron" 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -31,6 +33,59 @@ export default () => (
           <p><span className="smallcaps">Soli Deo Gloria</span> (somente a Deus a glória): cremos que só existe um Deus, que nos é revelado na Bíblia. Cremos, portanto, na Trindade, conforme definida nos credos históricos: três Pessoas distintas (Pai, Filho e Espírito Santo) que subsistem eternamente numa só essência, as quais são igualmente onipotentes, oniscientes e eternas. É somente a esse Deus único que o homem (sua criação) deve prestar todo louvor, honra e glória, já que o Senhor, o Deus dos patriarcas e da igreja, não admite dividir sua glória com outrem <cite>(Êxodo 20.3-5; Isaías 42.8)</cite>.</p>
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <h1 className="display-3 text-dark text-center text_font_default font_variant_smallcaps">Nossos presbíteros</h1>
+        </Col>
+      </Row>
+      <Row className="my-3 mx-auto">
+        <Col>
+          <Card className="border-0">
+            <Image 
+              src="images/Davi.jpg"
+              height="240" 
+              width="240"
+              className="m-auto avatar-rounded"
+            />
+            <CardBody>
+              <CardText className="text-center text_font_default font_variant_smallcaps ">
+              Davi Peixoto
+              </CardText>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="border-0">
+            <Image 
+              src="images/Fabricio.jpg"
+              height="240" 
+              width="240"
+              className="m-auto avatar-rounded" 
+            />
+            <CardBody>
+              <CardText className="text-center text_font_default font_variant_smallcaps ">
+              Favrício Tavares
+              </CardText>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="border-0">
+            <Image 
+              src="images/JoseCarlos.jpg"
+              height="240" 
+              width="240"
+              className="m-auto avatar-rounded" 
+            />
+            <CardBody>
+              <CardText className="text-center text_font_default font_variant_smallcaps ">
+              José Carlos Bastos
+              </CardText>
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
+      <Footer />
     </Container>
   </div>
 )
