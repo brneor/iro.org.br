@@ -25,7 +25,7 @@ export default () => (
 <p>Todos os homens pecaram em Adão, estão debaixo da maldição de Deus e são condenados à morte eterna. Por isso ninguém teria sido injustiçado se ele tivesse resolvido deixar toda a raça humana no pecado e sob a maldição e decidido condená la por causa do seu pecado, de acordo com as palavras do apóstolo: <q>que se cole toda boca, e todo o mundo seja culpável perante Deus&hellip; pois todos pecaram e carecem da glória de Deus&hellip; e&hellip; o salário do pecado é a morte</q> <cite>(Rm 3.19,23; Rm 6.23)</cite></p>
 
 <h4>O envio do Filho de Deus</h4>
-<p><q>Mas nisto se manifestou o amor de Deus em nós, em haver Deus enviado o seu Filho unigênito ao mundo&hellip; para que todo o que nele crê não pereça, mos tenha a vida eterna.</q> <cite>(1Jo 4.9; Jo 3.16)</cite></p>
+<p><q>Mas nisto se manifestou o amor de Deus em nós, em haver Deus enviado o seu Filho unigênito ao mundo&hellip; para que todo o que nele crê não pereça, mas tenha a vida eterna.</q> <cite>(1Jo 4.9; Jo 3.16)</cite></p>
 
 <h4>A pregação do Evangelho</h4>
 <p>Para que os homens sejam conduzidos à fé, Deus envia, em sua misericórdia, mensageiros dessa alegre boa nova a quem e quando ele quer. Pelo ministério deles, os homens são chamados ao arrependimento e à fé no Cristo crucificado. <q>Como crerão naquele de quem nada ouviram? E como ouvirão, se não há quem pregue? E como pregarão se não forem enviados?</q> <cite>(Rm 10.14–15)</cite></p>
