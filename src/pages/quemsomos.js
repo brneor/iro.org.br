@@ -40,7 +40,7 @@ export default () => (
       </Row>
       <Row className="my-3 mx-auto">
         <Col>
-          <Card className="border-0" tag={Link} to="/confissao_belga">
+          <Card className="border-0">
             <Image 
               src="images/Davi.jpg"
               height="240" 
@@ -55,7 +55,7 @@ export default () => (
           </Card>
         </Col>
         <Col>
-          <Card className="border-0" tag={Link} to="/heidelberg">
+          <Card className="border-0">
             <Image 
               src="images/Fabricio.jpg"
               height="240" 
@@ -70,7 +70,7 @@ export default () => (
           </Card>
         </Col>
         <Col>
-          <Card className="border-0" tag={Link} to="/dort">
+          <Card className="border-0">
             <Image 
               src="images/JoseCarlos.jpg"
               height="240" 
