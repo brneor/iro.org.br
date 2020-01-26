@@ -23,10 +23,11 @@ const CustomFooter = (props) => {
                 <span>Juiz de Fora MG, CEP: 36063-000</span>
               </p>
 
+              <p><span class="smallcaps">Nossos encontros</span></p>
               <p className="info text_font_default">
-                <span>Terça: 19h30</span>
-                <span>Sexta: 19h30</span>
-                <span>Domingo: 19h</span>
+                <span>Domingo, 19h (Culto público)</span>
+                <span>Terça, 19h30 (Teologia sistemática)</span>
+                <span>Sexta, 19h30 (Exposição bíblica)</span>
               </p>
             </Col>
           </Row>
