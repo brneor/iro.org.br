@@ -7,6 +7,7 @@ import {
   Card,
   CardBody,
   CardText,
+  Jumbotron,
 } from "reactstrap"
 import MainNavBar from "../components/mainnavbar" 
 import Footer from "../components/mainfooter"
@@ -17,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default () => (
   <div>
     <MainNavBar />
-    <MainJumbotron />
+    <Jumbotron fluid className="hero hero_quemsomos"></Jumbotron>
     <Container>
       <Row className="mb-3">
         <Col id="confissao">
