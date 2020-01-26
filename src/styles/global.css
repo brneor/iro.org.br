@@ -11,6 +11,10 @@ nav {
   font-size: 0.8rem;
 }
 
+span.title-break {
+  display: inline-block;
+  line-height: 100%;
+}
 p, h4, ul, ol, li, blockquote, .text_font_default {
   font-family: 'Vollkorn' !important;
 }
@@ -334,6 +338,12 @@ body #confissao {
   font-weight: bold;
 }
 
+/* MEDIA QUERIES */
+@media only screen and (min-width: 48px) {
+  span.title-break {
+    display: inline;
+  }
+}
 @media only screen and (min-width: 640px) {
   *, body, body p {
     font-size: 21px;
