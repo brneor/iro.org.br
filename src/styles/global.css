@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 .h1, h1 {
-  font-size: 2.25rem!important;
+  font-size: 2rem!important;
 }
 
 .text_font_opensans {
@@ -143,6 +143,8 @@ span.bold {
   padding-top: 35px;
   letter-spacing: unset;
   word-spacing: unset;
+  font-family: 'Vollkorn' !important;
+  text-shadow: 0 1px 3px #000;
 }
 span.smallcaps {
   font-family: 'Vollkorn SC', serif;
@@ -161,6 +163,9 @@ cite {
   font-style: normal;
   color: #A53E42;
   font-size: .9em;
+}
+.card-body {
+  line-height: 1rem;
 }
 
 blockquote {
@@ -330,4 +335,5 @@ body #confissao {
   *, body, body p {
     font-size: 24px;
   }
+
 }
