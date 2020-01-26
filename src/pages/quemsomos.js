@@ -64,7 +64,7 @@ export default () => (
             />
             <CardBody>
               <CardText className="text-center text_font_default font_variant_smallcaps ">
-              Favrício Tavares
+              Fabrício Tavares
               </CardText>
             </CardBody>
           </Card>

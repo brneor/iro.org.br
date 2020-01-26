@@ -43,7 +43,7 @@ export default class MainNavBar extends React.Component {
         <Navbar dark expand="md" className="bg_iro_red">
           <NavbarBrand tag={Link} to="/">
           <img src={logo} className={[styles.logo, "d-inline-block align-top"].join(" ")} alt=""/>
-            <span className={[styles.bg_iro_red, styles.text_font_default, styles.font_variant_smallcaps, styles.font_title, "mx-2"].join(" ")}>Igreja Reformada Ortodoxa</span>
+            <span className={[styles.bg_iro_red, styles.text_font_default, styles.font_variant_smallcaps, styles.font_title].join(" ")}>Igreja </span><span className={[styles.bg_iro_red, styles.text_font_default, styles.font_variant_smallcaps, styles.font_title].join(" ")}> Reformada Ortodoxa</span>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

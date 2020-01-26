@@ -4,9 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Vollkorn:400,400i,700&display=swap');
 /*---------------------------------------------------------------------------*/
 /* Custom declarations */
-nav {
-  height: 64px;
-}
 .text_font_default {
   font-family: 'Vollkorn' !important;
 }
@@ -25,11 +22,11 @@ nav {
   word-spacing: .1rem;
 }
 
-nav a span {
+/* nav a span {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
 .bg_iro_red {
   background-color: #A53E42;
@@ -37,4 +34,5 @@ nav a span {
 
 .logo {
   height: 36px;
+  margin-right: .5rem;
 }
