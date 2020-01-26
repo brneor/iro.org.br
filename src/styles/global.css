@@ -108,6 +108,10 @@ a:focus {
   background: url('../images/hero-heidelberg.jpg') no-repeat 50% 0%/cover;
 }
 
+.hero_quemsomos {
+  background: url('../images/hero-quemsomos.jpg') no-repeat 50% 0%/cover;
+}
+
 p.info span {
   display: block;
 }

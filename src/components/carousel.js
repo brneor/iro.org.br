@@ -9,9 +9,9 @@ import {
 
 const items = [
   {
-    src: 'blog/nenad-spasojevic-Hf3i5itAlvs-unsplash.jpg',
-    altText: 'O início do fim da era cristã',
-    header: 'O início do fim da era cristã',
+    src: 'blog/inicio-do-fim.jpg',
+    // altText: 'O início do fim da era cristã',
+    // header: 'O início do fim da era cristã',
     link: 'https://iro.org.br/blog/?p=45'
   },
   {
