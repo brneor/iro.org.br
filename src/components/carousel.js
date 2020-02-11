@@ -16,14 +16,14 @@ const items = [
   },
   {
     src: 'blog/Jesus-e-Marx.jpg',
-    altText: 'Jesus e Marx: o diálogo impossível',
-    header: 'Jesus e Marx: o diálogo impossível',
+    // altText: 'Jesus e Marx: o diálogo impossível',
+    // header: 'Jesus e Marx: o diálogo impossível',
     link: 'https://iro.org.br/blog/?p=56'
   },
   {
-    src: 'blog/patrick-fore-b_SHPU5M3nk-unsplash.jpg',
-    altText: 'A essência singular da fé',
-    header: 'A essência singular da fé',
+    src: 'blog/essencia-da-fe.jpg',
+    // altText: 'A essência singular da fé',
+    // header: 'A essência singular da fé',
     link: 'https://iro.org.br/blog/?p=60'
   }
 ];
