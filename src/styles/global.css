@@ -220,20 +220,28 @@ hr.fleuronColor:before {
 #confissao p {
   margin:0;
 }
-#confissao:not(.heidelberg) p, 
-#confissao :not(.erro) p{
+
+#confissao p {
   text-indent: 2em;
 }
-#confissao:not(.heidelberg) p:first-of-type, 
-#confissao :not(.erro) p:first-of-type {
+#confissao.heidelberg p,
+#confissao .erros p {
+  text-indent: 0;
+}
+
+#confissao p:first-of-type {
   text-indent: 0;
 }
 
 #confissao p:first-of-type::first-letter {
-  font-family: Georgia;
-  font-size: 2rem;
+  font-size: 2.25rem;
   line-height: 1rem;
   color: #b82e32;
+  font-weight: bold;
+}
+#confissao .erros p:first-of-type::first-letter {
+  font-size: 1rem;
+  color: #333;
 }
 
 body #confissao {
