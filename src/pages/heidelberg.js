@@ -24,9 +24,9 @@ export default () => (
 
 <h3>Domingo 1</h3>
 
-<h4>Qual é o seu único fundamento, na vida e na morte?</h4>
+<h4>Qual é o seu único conforto na vida e na morte?</h4>
 
-<p>O meu único fundamento é meu fiel Salvador Jesus Cristo<sup>l</sup>. A Ele pertenço, em corpo e alma, na vida e na morte<sup>2</sup>, e não pertenço a mim mesmo<sup>3</sup>. Com seu precioso sangue Ele pagou<sup>4</sup> por todos os meus pecados e me libertou de todo o domínio do diabo<sup>5</sup>. Agora Ele me protege de tal maneira<sup>6</sup> que, sem a vontade do meu Pai do céu, não perderei nem um fio de cabelo<sup>7</sup>. Além disto, tudo coopera para o meu bem<sup>8</sup>. Por isso, pelo Espírito Santo, Ele também me garante a vida eterna<sup>9</sup> e me torna disposto a viver para Ele, daqui em diante, de todo o coração<sup>10</sup>.</p>
+<p> O meu único conforto é que – corpo e alma, na vida e na morte<sup>1</sup> – não pertenço a mim mesmo,<sup>2</sup> mas ao meu fiel Salvador, Jesus Cristo,<sup>3</sup> que, ao preço do seu próprio sangue, pagou<sup>4</sup> totalmente por todos os meus pecados e me libertou completamente do domínio do pecado.<sup>5</sup> Ele me protege tão bem<sup>6</sup> que, contra a vontade de meu Pai do céu, não perderei nem um fio de cabelo.<sup>7</sup> Na verdade, tudo coopera para meu bem e o seu propósito é para a minha salvação.<sup>8</sup> Portanto, pelo seu Espírito Santo ele também me garante a vida eterna<sup>9</sup> e me torna disposto a viver para ele daqui em diante, de todo o coração.<sup>10</sup></p>
 
 
 <ol>
@@ -38,11 +38,13 @@ export default () => (
     <li>Jo 6:39; Jo 10:27–30; 2Ts 3:3; 1Pe 1:5</li>
     <li>Mt 10:29,30; Lc 21:18</li>
     <li>Rm 8:28</li>
-    <li>Rm 8:16; 2Co 1:22; 2 C</li>
+    <li>Rm 8:16; 2Co 1:22; 2 Co 5:5; Ef 1:13–14</li>
+    <li>Rm 8:14; 1Jo 3:3</li>
 </ol>
-<h4>O que você deve saber para viver e morrer neste fundamento?</h4>
 
-<p>Primeiro: como são grandes meus pecados e minha miséria<sup>1</sup>. Segundo: como sou salvo de meus pecados e de minha miséria<sup>2</sup>. Terceiro: como devo ser grato a Deus por tal salvação<sup>3</sup>.</p>
+<h4>O que você deve saber para viver e morrer nesse fundamento?</h4>
+
+<p>Primeiro: como são grandes meus pecados e minha miséria.<sup>1</sup> Segundo: como sou salvo de meus pecados e de minha miséria.<sup>2</sup> Terceiro: como devo ser grato a Deus por tal salvação.<sup>3</sup></p>
 <ol>
     <li>Mt 9:12; Jo 9:41; Rm 3:10; 1Jo 1:9,10</li>
     <li>Lc 24:46,47; Jo 17:3; At 4:12; At 10:43; 1Co 6:11; Tt 3:3–7</li>
@@ -57,21 +59,21 @@ export default () => (
 
 <h4>Como você conhece sua miséria?</h4>
 
-<p>Pela lei de Deus<sup>1</sup>.</p>
+<p>Pela Lei de Deus.<sup>1</sup></p>
 
 <ol>
     <li>Rm 3:20</li>
 </ol>
-<h4>O que a lei de Deus exige de nós?</h4>
+<h4>O que a Lei de Deus exige de nós?</h4>
 
-<p>Isto Cristo nos ensina num resumo, em Mateus 22:37–40: &ldquo;Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma e de todo o teu entendimento. &ldquo;Este é o grande e primeiro mandamento. O segundo, semelhante a este, é: Amarás o teu próximo como a ti mesmo. Destes dois mandamentos dependem toda a lei e os profetas&rdquo;<sup>1</sup>.</p>
+<p>Cristo nos ensina isso, em um resumo, em Mateus 22:37–40: <quote>&ldquo;Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma e de todo o teu entendimento. Este é o grande e primeiro mandamento. O segundo, semelhante a este, é: Amarás o teu próximo como a ti mesmo. Destes dois mandamentos dependem toda a lei e os profetas&rdquo;</quote><sup>1</sup>.</p>
 <ol>
     <li>Lv 19:18; Dt 6:5; Mc 12:30,31; Lc 10:27</li>
 </ol>
 
-<h4>Você pode observar esta lei perfeitamente?</h4>
+<h4>Você pode guardar essa lei perfeitamente?</h4>
 
-<p>Não, não posso<sup>1</sup>, porque por natureza sou inclinado a odiar a Deus e a meu próximo<sup>2</sup>.</p>
+<p>Não, não posso,<sup>1</sup> porque por natureza sou inclinado a odiar a Deus e o meu próximo.<sup>2</sup></p>
 
 
 <ol>
