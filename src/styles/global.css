@@ -217,6 +217,7 @@ hr.fleuronColor:before {
   max-width: 800px;
   margin: 0 auto;
 }
+/* FIXME */
 #confissao p {
   margin:0;
 }
@@ -267,6 +268,7 @@ body #confissao {
   font-weight: bold;
   padding-right: 6px;
   color: #b82e32;
+  font-family: 'Vollkorn SC' !important;
 /*     margin-right: -2px;
   font-size: .75em;
   vertical-align: top; */
@@ -332,6 +334,7 @@ body #confissao {
   color: #b82e32;
   position: relative;
   vertical-align: baseline;
+  font-family: 'Vollkorn SC' !important;
 }
 
 /* --- belga --- */
